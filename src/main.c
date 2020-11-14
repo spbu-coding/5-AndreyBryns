@@ -3,7 +3,7 @@
 int other()
 {
 	printf("other");
-	exit(0);
+	fflush(stdout);
 }
 
 void input()
@@ -16,6 +16,5 @@ void input()
 int main()
 {
 	input();
-	printf("input done");
 	return 0;
 }
