@@ -8,7 +8,7 @@ int other()
 
 void input()
 {
-	char buffer[10];
+	char buffer[20];
 	scanf("%s", buffer);
 	printf("%s", buffer);
 }
