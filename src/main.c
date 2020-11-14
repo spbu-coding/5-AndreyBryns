@@ -2,13 +2,15 @@
 
 int other()
 {
-	printf("other");
+	printf("other\n");
 	fflush(stdout);
 }
 
 void input()
 {
 	char buffer[20];
+	printf("input\n");
+	fflush(stdout);
 	scanf("%s", buffer);
 	fflush(stdout);
 	printf("%s", buffer);
