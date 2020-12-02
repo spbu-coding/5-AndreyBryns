@@ -18,8 +18,8 @@ void input()
 
 int main()
 {
-	printf("&p\n", &other);
 	fflush(stdout);
 	input();
+	printf("input function done\n");
 	return 0;
 }
